@@ -10,8 +10,10 @@ int main() {
 
     // Cadastro da cidade Rio de Janeiro.
     
-    char letra[20] = "A";
+    char Estado[20] = "A";
+    char Código da Carta[A01] ='Rio de Janeiro';
     int População = 5.000000;
+    char Nome da Cidade("Rio de Janeiro");
 
 
 
