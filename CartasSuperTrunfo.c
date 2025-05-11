@@ -4,11 +4,18 @@
 // Tema 1 - Cadastro das Cartas
 // Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
 // Siga os comentários para implementar cada parte do desafio.
-//Teste larissa
+//Teste Rondinely.
 
 int main() {
 
-    printf("teste de salvamento\n");
+    // Cadastro da cidade Rio de Janeiro.
+    
+    char letra[20] = "A";
+    int População = 5.000000;
+
+
+
+
     
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
