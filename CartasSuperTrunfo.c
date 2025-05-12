@@ -6,15 +6,21 @@
 // Siga os comentários para implementar cada parte do desafio.
 //Teste Rondinely.
 
-int main() {
+int main(){
 
-    // Cadastro da cidade Rio de Janeiro.
+    // Cadastro da carta 1.
     
-    char Estado[20] = "A";
-    char Código da Carta[A01] ='Rio de Janeiro';
-    int População = 5.000000;
-    char Nome da Cidade("Rio de Janeiro");
+char Estado[20];
+char Codigo[50];
+char Nome[20];
+int Populacao, Pontos;
+float Área, PIB;
 
+printf ("Digite o Estado:  \n");
+scanf("%s", &Estado);
+
+printf("Digite o nome da Cidade: \n");
+scanf("%s", &Nome);
 
 
 
