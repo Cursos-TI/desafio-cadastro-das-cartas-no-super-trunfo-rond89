@@ -10,17 +10,34 @@ int main(){
 
     // Cadastro da carta 1.
     
-char Estado[20];
-char Codigo[50];
+char Estado;
+char Código[50];
 char Nome[20];
-int Populacao, Pontos;
+int População, Pontos;
 float Área, PIB;
 
 printf ("Digite o Estado:  \n");
 scanf("%s", &Estado);
-
-printf("Digite o nome da Cidade: \n");
+printf("Digite o Código: \n");
+scanf("%s", &Código);
+printf("Digite o  Nome: \n");
 scanf("%s", &Nome);
+printf("Digite a População: \n");
+scanf("%d", &População);
+printf("Digite os Pontos: \n");
+scanf("%d", &Pontos);
+printf("Digite a Área: \n");
+scanf("%f", &Área);
+printf("Digite o PIB: \n");
+scanf("%f", &PIB);
+
+printf("Nome do Estado: %s - Digite o Código: &s", Estado, Código);
+printf("Digite o Nome: %s - Digite a População: %d", Nome, População);
+printf("Digite os Pontos: %d - Digite a Área: %f - Digite o PIB: %f", Pontos, Área);
+
+return 0;
+
+}
 
 
 
@@ -36,5 +53,4 @@ scanf("%s", &Nome);
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
-    return 0;
-}
+
